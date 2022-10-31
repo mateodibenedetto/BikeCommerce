@@ -1,0 +1,131 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.loader {
+  padding-top: calc(50vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-detail-container {
+  padding-top: 150px;
+  background-color: #f4f5f4;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+
+
+  .detail-container {
+    margin: 0;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .item-detail {
+    margin: 1rem;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    @include m.xl {
+      flex-direction: row;
+    }
+
+    .item-desc {
+      height: auto;
+      background-color: v.$blanco;
+      padding: 0.5rem;
+
+      @include m.tablet {
+        padding: 2rem;
+        max-width: 660px;
+      }
+
+      @include m.desktop {
+        padding: 3rem;
+        min-height: 615px; 
+      }
+
+      .description-title {
+        font-size: 1.2rem;
+
+        @include m.tablet {
+          font-size: 1.5rem;
+        }
+        @include m.desktop {
+          font-size: 1.8rem;
+        }
+        @include m.xl {
+          font-size: 2rem;
+        }
+      }
+
+      .description {
+        font-weight: lighter;
+        font-size: 1.2rem;
+
+        @include m.tablet {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .item-img {
+      background-color: v.$blanco;
+      height: auto;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @include m.tablet {
+        min-height: 615px;
+        padding: 0;
+      }
+
+      @include m.xxl {
+        padding: 3rem;
+        max-width: 660px;
+        max-height: 430px;
+      }
+      .img-responsive {
+        width: auto;
+        height: auto;
+        @include m.tablet {
+          min-width: 660px;
+          min-height: 430px;
+          max-width: 660px;
+          max-height: 430px;
+        }
+      }
+    }
+
+    .title {
+      color: v.$negro;
+    }
+
+    .btn-finish {
+      margin: 1.5rem 0;
+      padding: 0.2rem 1.5rem;
+      background-color: v.$main-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.4s ease;
+      cursor: pointer;
+
+      &:hover {
+        background-color: v.$second-color;
+      }
+    }
+  }
+}

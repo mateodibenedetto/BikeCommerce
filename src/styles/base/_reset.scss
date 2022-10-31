@@ -1,0 +1,187 @@
+@use "variables" as v;
+
+.light {
+  color: v.$negro;
+  background-color: v.$grisClaro;
+
+  .navbar_logo {
+    color: v.$negro;
+  }
+
+  .navbar_menu {
+    .navbar_nav-items {
+      li {
+        a {
+          color: v.$color3;
+        }
+      }
+    }
+  }
+
+  .navbar_panel {
+    background-color: rgba(223, 223, 223, 0.952);
+
+    .navbar_nav-items {
+      li {
+        a {
+          color: v.$negro;
+        }
+      }
+    }
+  }
+
+  .section {
+    background-color: v.$grisClaro;
+
+    h3,
+    p {
+      color: v.$negro;
+    }
+
+    .btn-container {
+      .btn-catalog {
+        color: v.$negro;
+      }
+    }
+  }
+
+  .item-list-container {
+    background-color: v.$grisClaro;
+  }
+
+  .cart-container {
+    background-color: v.$grisClaro;
+
+    .total {
+      .cart-total {
+        color: v.$negro;
+      }
+
+      .clear-cart {
+        color: v.$negro;
+      }
+    }
+
+    .finish-prurchase {
+      color: v.$negro;
+    }
+  }
+
+  .btn-back {
+    .back {
+      color: v.$negro;
+    }
+
+    .empty {
+      h2 {
+        color: v.$negro;
+      }
+    }
+  }
+  .footer-container {
+    background-color: v.$grisClaro;
+  }
+  .footer {
+    .copy {
+      color: v.$color3;
+    }
+
+    .nav {
+      .nav-items {
+        li {
+          .a {
+            color: v.$color3;
+          }
+        }
+      }
+    }
+  }
+}
+
+.dark {
+  color: v.$blanco;
+  background-color: #000;
+
+  .navbar_nav {
+    background-color: v.$negro;
+    .navbar_menu {
+      .navbar_nav-items {
+        li {
+          a {
+            color: v.$main-color;
+          }
+        }
+      }
+    }
+
+    .navbar_panel {
+      background-color: rgba(53, 53, 53, 0.952);
+
+      .navbar_nav-items {
+        li {
+          a {
+            color: v.$color2;
+          }
+        }
+      }
+    }
+  }
+
+  .section {
+    background-color: #1d1d1d;
+
+    h3,
+    p {
+      color: v.$blanco;
+    }
+
+    .btn-container {
+      .btn-catalog {
+        color: v.$blanco;
+      }
+    }
+  }
+
+  .item-container {
+    background-color: #1d1d1d;
+  }
+
+  .cart-container {
+    background-color: #1d1d1d;
+
+    .total {
+      .cart-total {
+        color: v.$blanco;
+      }
+
+      .clear-cart {
+        color: v.$blanco;
+      }
+    }
+
+    .finish-prurchase {
+      color: v.$blanco;
+    }
+  }
+
+  .empty {
+    background-color: #1d1d1d;
+  }
+
+  .footer {
+    background-color: v.$negro;
+    .copy {
+      color: v.$main-color;
+    }
+
+    .nav {
+      .nav-items {
+        li {
+          .a {
+            color: v.$main-color;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,185 @@
+
+[
+  {
+    "id": "1",
+    "category": "mtb",
+    "description_title": "THE MOUNTAIN YOU WANT IS WITHIN YOUR REACH",
+    "description": "Fusion Pro goes in line with your love of the outdoors. Enjoying nature is everyone's right and our wide variety of Mountains allows you to find the ideal model for you to do it too. Resistant, solid, with high-end details and designs that invite you to drop everything in your search for a healthier and happier life.",
+    "name": "FUSION PRO 350",
+    "stock": 7,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/f45411_deeb5fd35b524e19a0d518526096dfff~mv2.jpg/v1/fill/w_626,h_419,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f45411_deeb5fd35b524e19a0d518526096dfff~mv2.jpg"
+  },
+  {
+    "id": "2",
+    "category": "mtb",
+    "description_title": "A TOP OF THE RANGE, THAT HAS NO STOP",
+    "description": "Enjoying nature is everyone's right and our wide variety of Mountains allows you to find the ideal model for you to do it too. Resistant, solid, with high-end details and designs that invite you to drop everything in your search for a healthier and happier life.",
+    "name": "STRIVE2.0 White",
+    "stock": 8,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/9ce52a_1e2bb8ff64aa451f84847be748c0be68~mv2.jpg/v1/fill/w_595,h_384,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/9ce52a_1e2bb8ff64aa451f84847be748c0be68~mv2.jpg"
+  },
+  {
+    "id": "3",
+    "category": "mtb",
+    "description_title": "THE EXCELLENCE DOES NOT HAVE MEASURES",
+    "description": "Enjoying nature is everyone's right and our wide variety of Mountains allows you to find the ideal model for you to do it too. Resistant, solid, with high-end details and designs that invite you to drop everything in your search for a healthier and happier life.",
+    "name": "RISE 26 POWER ORANGE",
+    "stock": 6,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/9ce52a_7ff4ef6716d54847971a061ca9c6d0e9~mv2.jpg/v1/fill/w_596,h_383,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/9ce52a_7ff4ef6716d54847971a061ca9c6d0e9~mv2.jpg"
+  },
+  {
+    "id": "4",
+    "category": "mtb",
+    "description_title": "THE BEST ROAD FOR YOUR DESIRE TO WALK",
+    "description": "Enjoying nature is everyone's right and our wide variety of Mountains allows you to find the ideal model for you to do it too. Resistant, solid, with high-end details and designs that invite you to drop everything in your search for a healthier and happier life.",
+    "name": "DUSTER PRO",
+    "stock": 3,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/f45411_6c56886a3c8f4fca8c46c309c251fbe2~mv2.jpg/v1/fill/w_631,h_421,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f45411_6c56886a3c8f4fca8c46c309c251fbe2~mv2.jpg"
+  },
+  {
+    "id": "5",
+    "category": "mtb",
+    "description_title": "AN ALL-TERRAIN ONE THAT REPRESENTS YOUR SPIRIT",
+    "description": "Thunder aligns with your love of the outdoors. Enjoying nature is everyone's right and our wide variety of Mountains allows you to find the ideal model for you to do it too. Resistant, solid, with high-end details and designs that invite you to drop everything in your search for a healthier and happier life.",
+    "name": "THUNDER POWER PINK",
+    "stock": 4,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/f45411_0420b8c373234490ae8b2d23f9367ac4~mv2.jpg/v1/fill/w_590,h_304,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f45411_0420b8c373234490ae8b2d23f9367ac4~mv2.jpg"
+  },
+  {
+    "id": "6",
+    "category": "mtb",
+    "description_title": "THE MOUNTAIN YOU WANT IS WITHIN YOUR REACH",
+    "description": "Fusion Pro goes in line with your love of the outdoors. Enjoying nature is everyone's right and our wide variety of Mountains allows you to find the ideal model for you to do it too. Resistant, solid, with high-end details and designs that invite you to drop everything in your search for a healthier and happier life.",
+    "name": "THUNDER POWER BLACK",
+    "stock": 11,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/9ce52a_24d31d471e474922b4a8e16f7274f4f0~mv2.jpg/v1/fill/w_610,h_359,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/9ce52a_24d31d471e474922b4a8e16f7274f4f0~mv2.jpg"
+  },
+  {
+    "id": "7",
+    "category": "urban",
+    "description_title": "AN ENTIRE LINE DESIGNED SO THAT THE CITY IS YOUR BEST HABITAT",
+    "description": "Vittoria is the fusion of the most genuine European aesthetics with the latest technology. The aluminum frame, the latest generation gears and its narrow wheels to achieve greater acceleration, are designed so that this model adapts naturally to the habitat and demands of modern cities.",
+    "name": "VITTORIA",
+    "stock": 6,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/f45411_bc73079331894444863e800b1e3231cb~mv2.jpg/v1/fill/w_579,h_456,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f45411_bc73079331894444863e800b1e3231cb~mv2.jpg"
+  },
+  {
+    "id": "8",
+    "category": "urban",
+    "description_title": "AN ENTIRE LINE DESIGNED SO THAT THE CITY IS YOUR BEST HABITAT",
+    "description": "Times in the city are fast and our urban variety has a range of models, designed exclusively for you to move with fluidity. Travel from the most classic to the most sophisticated, and climb to a better quality of life.",
+    "name": "OLIVIA",
+    "stock": 16,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/f45411_c7b9bf16a07840528e27a4848158a0c8~mv2.jpg/v1/fill/w_1026,h_629,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f45411_c7b9bf16a07840528e27a4848158a0c8~mv2.jpg"
+  },
+  {
+    "id": "9",
+    "category": "urban",
+    "description_title": "AN ENTIRE LINE DESIGNED SO THAT THE CITY IS YOUR BEST HABITAT",
+    "description": "Times in the city are fast and our urban variety has a range of models, designed exclusively for you to move with fluidity. Travel from the most classic to the most sophisticated, and climb to a better quality of life",
+    "name": "AMSTERDAM",
+    "stock": 7,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/9ce52a_9487edab4dfd431caad27aad0a321045~mv2.jpg/v1/fill/w_937,h_590,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9ce52a_9487edab4dfd431caad27aad0a321045~mv2.jpg"
+  },
+  {
+    "id": "10",
+    "category": "urban",
+    "description_title": "AN ENTIRE LINE DESIGNED SO THAT THE CITY IS YOUR BEST HABITAT",
+    "description": "Times in the city are fast and our urban variety has a range of models, designed exclusively for you to move with fluidity. Travel from the most classic to the most sophisticated, and climb to a better quality of life",
+    "name": "ANTONIETTE",
+    "stock": 5,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/f45411_9ed6be3f205f4584aa15d411d0c2988d~mv2.jpg/v1/fill/w_853,h_607,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f45411_9ed6be3f205f4584aa15d411d0c2988d~mv2.jpg"
+  },
+  {
+    "id": "11",
+    "category": "urban",
+    "description_title": "AN ENTIRE LINE DESIGNED SO THAT THE CITY IS YOUR BEST HABITAT",
+    "description": "Times in the city are fast and our urban variety has a range of models, designed exclusively for you to move with fluidity. Travel from the most classic to the most sophisticated, and climb to a better quality of life",
+    "name": "LADY",
+    "stock": 6,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/9ce52a_b473930fe254478c81d61aa5f5ea0a40~mv2.jpg/v1/fill/w_986,h_674,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9ce52a_b473930fe254478c81d61aa5f5ea0a40~mv2.jpg"
+  },
+  {
+    "id": "12",
+    "category": "urban",
+    "description_title": "AN ENTIRE LINE DESIGNED SO THAT THE CITY IS YOUR BEST HABITAT",
+    "description": "Times in the city are fast and our urban variety has a range of models, designed exclusively for you to move with fluidity. Travel from the most classic to the most sophisticated, and climb to a better quality of life",
+    "name": "ALBA",
+    "stock": 2,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/f45411_6e198632f1984f4c8e90af4c24e7093c~mv2.jpg/v1/fill/w_933,h_619,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f45411_6e198632f1984f4c8e90af4c24e7093c~mv2.jpg"
+  },
+  {
+    "id": "13",
+    "category": "bmx",
+    "description_title": "Freestyle lovers are well represented.",
+    "description": "Our goal is to revolutionize the bike market so that extreme sports are not just for a few. That is why we design various models, from different ranges, but with a single identity that represents them, the guarantee and robustness so that you do not stop improving yourself.",
+    "name": "FUSION XR",
+    "stock": 3,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/9ce52a_cf0b343f097444e698fefea240c8a1f9~mv2.jpg/v1/fill/w_900,h_587,al_c,q_85,enc_auto/9ce52a_cf0b343f097444e698fefea240c8a1f9~mv2.jpg"
+  },
+  {
+    "id": "14",
+    "category": "bmx",
+    "description_title": "Freestyle lovers are well represented.",
+    "description": "Our goal is to revolutionize the bike market so that extreme sports are not just for a few. That is why we design various models, from different ranges, but with a single identity that represents them, the guarantee and robustness so that you do not stop improving yourself.",
+    "name": "CHROME",
+    "stock": 10,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/f45411_73b34e0445294392885044ca417ab81a~mv2.jpg/v1/fill/w_952,h_626,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f45411_73b34e0445294392885044ca417ab81a~mv2.jpg"
+  },
+  {
+    "id": "15",
+    "category": "bmx",
+    "description_title": "Freestyle lovers are well represented.",
+    "description": "Our goal is to revolutionize the bike market so that extreme sports are not just for a few. That is why we design various models, from different ranges, but with a single identity that represents them, the guarantee and robustness so that you do not stop improving yourself.",
+    "name": "RISE 20",
+    "stock": 5,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/9ce52a_b93175ada27b48fa89db7f22a0c1b1dd~mv2.jpg/v1/fill/w_940,h_625,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9ce52a_b93175ada27b48fa89db7f22a0c1b1dd~mv2.jpg"
+  },
+  {
+    "id": "16",
+    "category": "bmx",
+    "description_title": "Freestyle lovers are well represented.",
+    "description": "Our goal is to revolutionize the bike market so that extreme sports are not just for a few. That is why we design various models, from different ranges, but with a single identity that represents them, the guarantee and robustness so that you do not stop improving yourself.",
+    "name": "VULCANO",
+    "stock": 7,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/727a95_7ee16d4f43f04ec9a5c9f30382f4707a~mv2.jpg/v1/fill/w_1185,h_652,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/727a95_7ee16d4f43f04ec9a5c9f30382f4707a~mv2.jpg"
+  },
+  {
+    "id": "17",
+    "category": "bmx",
+    "description_title": "Freestyle lovers are well represented.",
+    "description": "Our goal is to revolutionize the bike market so that extreme sports are not just for a few. That is why we design various models, from different ranges, but with a single identity that represents them, the guarantee and robustness so that you do not stop improving yourself.",
+    "name": "BLACK",
+    "stock": 8,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/727a95_68a1c1c6be37441f8b7c8683f849579c~mv2.jpg/v1/fill/w_933,h_617,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/727a95_68a1c1c6be37441f8b7c8683f849579c~mv2.jpg"
+  },
+  {
+    "id": "18",
+    "category": "bmx",
+    "description_title": "Freestyle lovers are well represented.",
+    "description": "Our goal is to revolutionize the bike market so that extreme sports are not just for a few. That is why we design various models, from different ranges, but with a single identity that represents them, the guarantee and robustness so that you do not stop improving yourself.",
+    "name": "VULCANO 24",
+    "stock": 6,
+    "price": 250,
+    "pictureUrl": "https://static.wixstatic.com/media/727a95_32228d10172047838ad00d39f3a64757~mv2.jpg/v1/fill/w_1175,h_636,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/727a95_32228d10172047838ad00d39f3a64757~mv2.jpg"
+  }
+  
+]
+

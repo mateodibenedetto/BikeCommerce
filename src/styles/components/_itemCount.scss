@@ -1,0 +1,77 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.item-count-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+
+  .item-count {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+  
+    .stock {
+      font-size: 1.2rem;
+      color: rgb(58, 58, 58)
+    }
+
+    .item-count-handler {
+      display: flex;
+      gap: 1rem;
+      margin: 1rem;
+
+      .item-count-number {
+        color: v.$negro;
+        margin: 0;
+      }
+  
+      .item-inc,
+      .item-dec {
+        background-color: v.$second-color;
+        border-radius: 0.2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding: 0 1rem;
+        transition: all .4s ease;
+
+        &:hover {
+          background-color: v.$color2;
+        }
+
+        @include m.tablet {
+          padding: 0 1.5rem;
+        }
+  
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  
+  .add-item {
+    font-size: 1.2rem;
+    background-color: v.$negro;
+    padding: 0.5rem 2.5rem;
+    color: v.$blanco;
+    transition: all .4s ease;
+    border-radius: .2rem;
+    
+    &:hover {
+      cursor: pointer;
+      background-color: v.$second-color;
+      color: v.$negro;
+    }
+    
+    @include m.tablet {
+      padding: 0.5rem 4.5rem;
+      font-size: 1.5rem;
+    }
+    
+  }
+  
+}

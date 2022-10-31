@@ -1,0 +1,192 @@
+@use "../base/variables" as v;
+@use "../base/mixins" as m;
+
+.btn-back {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
+  .back {
+    padding: .3rem 2rem;
+    color: #fff;
+    text-align: center;
+    margin-top: 1.8rem;
+    background-color: transparent;
+    border: 3px solid v.$second-color;
+    transition: all .4s ease;
+    
+    &:hover {
+      background-color: v.$second-color;
+    }
+  }
+}
+
+.empty {
+  padding-top: 200px;
+  min-height: 100vh; 
+
+  h2 {
+    text-align: center;
+  }
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  gap: 2rem;
+  margin: 0; 
+  min-height: 100vh; 
+  
+  @include m.tablet {
+    padding: 3rem;
+  }
+
+  .total {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+    @include m.telefono {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    @include m.tablet {
+      gap: 5rem;
+    }
+
+    .cart-total {
+      font-size: 1.5rem;
+
+      @include m.tablet {
+        font-size: 2rem;
+      }
+    }
+
+    .clear-cart {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: v.$color1;
+      color: #000;
+      padding: .2rem 2.5rem;
+      border-radius: .2rem;
+      cursor: pointer;
+      transition: all .4s ease;
+      font-size: 1.2rem;
+      
+      &:hover {
+        color: #fff;
+        background-color: v.$color3;
+      }
+
+      @include m.tablet {
+        font-size: 1.8rem;
+      }
+    }
+
+  }
+  .finish-prurchase { 
+    border: 3px solid v.$color3;
+    padding: .2rem 2rem;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    font-size: 1.2rem;
+    
+    &:hover { 
+      background-color: v.$color3;
+    }
+    
+    @include m.tablet {
+      margin-top: 2rem;
+      font-size: 1.8rem;
+    }
+  }
+
+  .cart-item-container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-radius: .2rem;
+    background-color: #fff;
+    
+    @include m.tablet {
+      min-width: 863px;
+      max-width: 863px;
+    }
+
+    .cart-item-left {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column-reverse;
+      gap: 2rem;
+
+      @include m.tablet {
+        flex-direction: row;
+      }
+      
+      .cart-item-img {
+        max-width: 250px;
+        max-height: 200px;
+        border-radius: .2rem;
+      }
+      
+      .cart-item-name {
+        color: #000;
+        font-size: 1.3rem;
+
+        @include m.tablet {
+          font-size: 2rem;
+        }
+      }
+
+      .cart-item-delete {
+        font-size: 1.9rem;
+        cursor: pointer;
+      }
+
+    }
+
+    .cart-item-rigth {
+      display: flex;
+      justify-content: center;
+      align-items: center; 
+      flex-direction: column-reverse;
+      gap: 1rem;
+      padding: .5rem;
+      margin: .5rem;
+      
+      @include m.tablet {
+        gap: 3rem;
+        flex-direction: row;
+      }
+
+      .cart-item-price {
+        color: #000;
+      }
+
+      .quantity {
+
+        .arrow-up, .arrow-down { 
+          cursor: pointer;
+          transition: all .4s ease;
+          color: v.$color3;
+          font-size: 1.5em;
+
+          &:hover {
+            color: v.$color2;
+          }
+        }
+        .cart-item-quantity {
+          color: #000;
+          text-align: center;
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.main {
+
+    .bigimg-1,
+    .bigimg-2,
+    .bigimg-3 {
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bigimg-1 {
+        background-image: url("../../assets/imgs/img-parallax-1.jpg");
+        min-height: 100vh;
+    }
+
+    .bigimg-2 {
+        background-image: url("../../assets/imgs/img-parallax-2.jpg");
+        min-height: 100vh;
+    }
+
+    .bigimg-3 {
+        background-image: url("../../assets/imgs/img-parallax-3.jpg");
+        min-height: 100vh;
+        padding: 0;
+        margin: 0;
+    }
+
+
+    .section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5rem; 
+ 
+        .btn-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center; 
+            margin: 1rem 0;
+
+            .btn-catalog { 
+                padding: 0 1rem;
+                border: 4px solid v.$second-color;
+                cursor: pointer;
+                transition: all .3s ease;
+
+                &:hover {
+                    background-color:  v.$second-color;
+                    color: v.$negro;
+                }
+            }
+        }
+    }
+
+    
+}

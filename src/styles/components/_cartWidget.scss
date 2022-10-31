@@ -1,0 +1,10 @@
+@use '../base/variables' as v;
+
+.product-number {
+  background-color: v.$main-color;
+  color: v.$blanco;
+  font-size: .8rem;
+  border-radius: 50%;
+  padding: 0 0.4rem ;
+  margin-bottom: 1.5rem; 
+}

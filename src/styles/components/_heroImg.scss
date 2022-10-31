@@ -1,0 +1,15 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+ 
+.heroImg {
+    min-height: 100vh;
+    padding-top: 100px;
+    background-image: url("../../assets/imgs/headerMobile.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    
+    @include m.tablet {
+        background-image: url("../../assets/imgs/header.png"); 
+    }
+}
